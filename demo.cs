@@ -1,10 +1,13 @@
-//Install - Package Newtonsoft.Json
-//Install - Package RabbitMQ.Client
+// Instalar estos paquetes de NuGet antes de continuar.
+// https://docs.nuget.org/consume/nuget-faq
+// Install - Package Newtonsoft.Json
+// Install - Package RabbitMQ.Client
 //
-//using System;
-//using Newtonsoft.Json;
-//using RabbitMQ.Client;
-//using RabbitMQ.Client.Events;
+// Agregar estas directivas a su código.
+// using System;
+// using Newtonsoft.Json;
+// using RabbitMQ.Client;
+// using RabbitMQ.Client.Events;
 
 void Main()
 {
