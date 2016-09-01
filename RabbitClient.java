@@ -2,9 +2,11 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+//http://www.tutorialspoint.com/jackson/jackson_objectmapper.htm
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.map.ObjectMapper;
 
+//http://www.rabbitmq.com/java-client.html
 import com.rabbitmq.client.AMQP.BasicProperties;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
