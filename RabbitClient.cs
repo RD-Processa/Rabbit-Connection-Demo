@@ -1,4 +1,4 @@
-// Instalar estos paquetes de NuGet antes de continuar.
+// Instalar estos paquetes de NuGet antes de continuar
 // https://docs.nuget.org/consume/nuget-faq
 // Install - Package Newtonsoft.Json
 // Install - Package RabbitMQ.Client
