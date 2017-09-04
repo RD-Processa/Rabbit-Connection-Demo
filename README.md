@@ -9,13 +9,6 @@ Sencillo ejemplo de conexión con RabbitMQ con C# y Java utilizando el patrón [
 - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/)
 - [RabbitMQ.Client](https://www.nuget.org/packages/RabbitMQ.Client/)
 
-#### Directivas using:
-```c#
-using System;
-using Newtonsoft.Json;
-using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
-```
 
 ## Notas técnicas Java
 ### Paquetes  JAR (Java ARchive) necesarios:
