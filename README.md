@@ -1,3 +1,3 @@
 # rabbit-connection-demo
-Sencillo ejemplo de como conectar con RabbitMQ con C# y Java
+Sencillo ejemplo de conexión con RabbitMQ con C# y Java
 
