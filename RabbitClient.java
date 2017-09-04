@@ -22,18 +22,22 @@ public class RabbitClient {
 	private QueueingConsumer consumer;
 	private ObjectMapper mapper;
 
-	private String host = "jaguar.rmq.cloudamqp.com";
-	private int port = 5672;
-	private String virtualhost = "zbpsjoml";
-	private String username = "zbpsjoml";
-	private String password = "uH1mSI-IHSl1b7jy1BvdTtuU3hJKKkxJ";
+	// TODO: Coloque aquí los datos de conexión proporcionados.
+	private String host = "hostanme";
+	private String virtualhost = "vhost";
+	private String username = "username";
+	private String password = "password";
 	private String routingKey;
 	private String exchange;	
 	
 	public static void main(String[] args) {
 		try {
+			// TODO: Coloque aquí el exchangeName proporcionado.
 			String exchangeName = "easy_net_q_rpc";
+			
+			// TODO: Coloque aquí el queueName o routingKey proporcionado.
 			String routingKey = "DummyQueue.DummyRequest:DummyQueue";
+			
 			RabbitClient writer = new RabbitClient(exchangeName,routingKey);
 			DummyRequest request = writer.new DummyRequest();
 			request.setValue1(UUID.randomUUID().toString());
