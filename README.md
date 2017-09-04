@@ -23,3 +23,5 @@ Sencillo ejemplo de conexión con RabbitMQ con C# y Java utilizando el patrón [
 - [Remote procedure call (RPC) using the Java client](https://www.rabbitmq.com/tutorials/tutorial-six-java.html)
 
 ![RPC RabbitMQ](https://www.rabbitmq.com/img/tutorials/python-six.png)
+
+:information_source: (https://www.rabbitmq.com)
