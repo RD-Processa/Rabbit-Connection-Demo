@@ -1,5 +1,7 @@
 # Rabbit Connection Demo
-Sencillo ejemplo de conexión con RabbitMQ con C# y Java
+Sencillo ejemplo de conexión con RabbitMQ con C# y Java utilizando el patrón _(RPC) Remote procedure call_
+
+## 
 
 ## Notas técnicas C#
 #### Paquetes NuGet necesarios:
