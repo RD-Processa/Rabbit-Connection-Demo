@@ -16,3 +16,9 @@ using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 ```
+
+## Notas técnicas Java
+### Paquetes  JAR (Java ARchive) necesarios:
+
+- [Jackson](https://www.tutorialspoint.com/jackson/index.htm)
+- [RabbitMQ.Client](http://www.rabbitmq.com/java-client.html)
