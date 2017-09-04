@@ -11,8 +11,12 @@
 
 void Main()
 {
+	// TODO: Coloque aquí el queueName o routingKey proporcionado.
 	var routingKey = "DummyQueue.DummyRequest:DummyQueue";
+	
+	// TODO: Coloque aquí el exchangeName proporcionado.
 	var exchangeName = "easy_net_q_rpc";
+	
 	using (RabbitClient client = new RabbitClient(exchangeName, routingKey))
 	{
 		var request = new DummyRequest {Value1 = Guid.NewGuid().ToString(), Value2 = DateTime.Now.ToShortTimeString()};
@@ -95,7 +99,8 @@ public class RabbitClient : IDisposable
 
 	private void SetupConnection()
 	{
-		var factory = new ConnectionFactory() { HostName = "jaguar.rmq.cloudamqp.com", UserName="zbpsjoml", Password="uH1mSI-IHSl1b7jy1BvdTtuU3hJKKkxJ", VirtualHost="zbpsjoml"};
+		// TODO: Coloque aquí los datos de conexión proporcionados.
+		var factory = new ConnectionFactory() { HostName = "hostname", UserName="username", Password="password", VirtualHost="vhost"};
 		var replyQueueName = Guid.NewGuid().ToString("N");
 		this.connection = factory.CreateConnection();
 		this.model = this.connection.CreateModel();
