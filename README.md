@@ -17,4 +17,6 @@ Sencillo ejemplo de conexión con RabbitMQ en C# y Java utilizando el patrón [(
 
 [Ejemplo de implementación básica sin control de excepciones](https://github.com/RD-Processa/Rabbit-Connection-Demo/blob/master/RabbitClient.java)
 
+-------------------------
+
 :fire: [Visite la página de Wiki para más detalles](https://github.com/RD-Processa/Rabbit-Connection-Demo/wiki)
