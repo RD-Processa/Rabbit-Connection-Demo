@@ -14,4 +14,4 @@ Sencillo ejemplo de conexión con RabbitMQ en C# y Java utilizando el patrón [(
 - [Jackson](https://www.tutorialspoint.com/jackson/index.htm)
 - [RabbitMQ.Client](http://www.rabbitmq.com/java-client.html)
 
-[Visite la página de Wiki para más detalles](/Wiki)
+:fire: [Visite la página de Wiki para más detalles](https://github.com/RD-Processa/Rabbit-Connection-Demo/wiki)
