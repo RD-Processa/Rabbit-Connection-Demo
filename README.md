@@ -7,7 +7,7 @@ Sencillo ejemplo de conexión con RabbitMQ en C# y Java utilizando el patrón [(
 - [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/)
 - [RabbitMQ.Client](https://www.nuget.org/packages/RabbitMQ.Client/)
 
-[Ejemplo de implementación básica sin control de excepciones](https://github.com/RD-Processa/Rabbit-Connection-Demo/blob/master/RabbitClient.cs)
+[C# Ejemplo de implementación básica sin control de excepciones](https://github.com/RD-Processa/Rabbit-Connection-Demo/blob/master/RabbitClient.cs)
 
 ## Notas técnicas Java
 ### Paquetes  JAR (Java ARchive) necesarios:
@@ -15,7 +15,7 @@ Sencillo ejemplo de conexión con RabbitMQ en C# y Java utilizando el patrón [(
 - [Jackson](https://www.tutorialspoint.com/jackson/index.htm)
 - [RabbitMQ.Client](http://www.rabbitmq.com/java-client.html)
 
-[Ejemplo de implementación básica sin control de excepciones](https://github.com/RD-Processa/Rabbit-Connection-Demo/blob/master/RabbitClient.java)
+[Java Ejemplo de implementación básica sin control de excepciones](https://github.com/RD-Processa/Rabbit-Connection-Demo/blob/master/RabbitClient.java)
 
 -------------------------
 
